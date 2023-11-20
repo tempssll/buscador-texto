@@ -19,6 +19,11 @@ $(document).ready(function() {
       });
     });
   });
+
+  // Limpiar el campo de búsqueda y restablecer estilos al hacer clic en el botón "Limpiar"
+  $("#clearButton").on("click", function() {
+    $("#searchInput").val("").trigger("input");
+  });
   
   // Función para verificar si un elemento contiene un texto
   (function($) {
