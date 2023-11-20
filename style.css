@@ -1,0 +1,15 @@
+.buscador1 {
+  text-align: center;
+  color: blue;
+}
+
+.busque {
+  position: fixed;
+}
+
+#searchInput {
+  margin-bottom: 20px;
+}
+.highlight {
+  color: red !important;
+}
